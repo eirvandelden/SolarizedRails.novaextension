@@ -1,0 +1,294 @@
+/* Solarized colours
+base03 #002b36
+base02 #073642
+base01 #586e75 - optional emphasized content
+base00 #657b83 - body text / default code / primary content
+base0 #839496
+base1 #93a1a1 - comments / secondary content
+base2 #eee8d5 - background highlights
+base3 #fdf6e3 - background
+yellow #b58900 - keywords
+orange #cb4b16 - constants
+red #dc322f - ???
+magenta #d33682
+violet #6c71c4 - TODO
+blue #268bd2 - methods
+cyan #2aa198
+green #859900 - something different but close to content
+*/
+
+meta {
+  -theme-display-name: "Solarized Light Rails";
+  -theme-interface-style: light;
+  -theme-accent-color: auto;
+}
+
+/* meta.window {
+  background-color: hsl(211, 34%, 12%);
+  border-color: hsla(0, 0%, 100%, 0.15);
+}
+meta.titlebar {
+  color: hsl(220, 17%, 76%);
+  background: linear-gradient(hsl(211, 34%, 21%), hsl(211, 34%, 12%));
+  background-color: hsl(211, 34%, 12%);
+  border-color: hsla(0, 0%, 100%, 0.15);
+}
+meta.titlebar.inactive {
+  background-color: hsl(211, 34%, 12%);
+  border-color: hsla(0, 0%, 100%, 0.15);
+}
+
+meta.button {
+  background: linear-gradient(hsl(211, 34%, 21%), hsl(211, 34%, 19%));
+  border-color: hsla(0, 0%, 100%, 0.15);
+  color: white;
+}
+meta.button.highlighted {
+  background: linear-gradient(hsl(211, 34%, 27%)), hsl(211, 34%, 25%));
+  color: white;
+}
+meta.button.selected {
+  color: white;
+}
+meta.button.highlighted.selected {
+  color: white;
+}
+meta.button.disabled {
+  background: linear-gradient(hsl(211, 34%, 21%), hsl(211, 34%, 19%));
+  border-color: hsla(0, 0%, 100%, 0.15);
+  color: hsl(0, 0%, 40%);
+} */
+
+meta.document {
+  background-color: #fdf6e3;
+  border-color: #eee8d5;
+}
+
+meta.text {
+  color: #657b83;
+}
+meta.text.invisible {
+  color: #93a1a1;
+}
+meta.text.selected {
+  background-color: #eee8d5;
+}
+
+meta.cursor {
+  border-color: #839496;
+  background-color: #eee8d5;
+}
+meta.indentguide {
+  border-color: #eee8d5;
+}
+
+meta.gutter {
+  background-color: #fdf6e3;
+  border-color: #fdf6e3;
+  color:#93a1a1;
+}
+meta.gutter.selected {
+  background-color: #eee8d5;
+  color: #93a1a1;
+}
+
+/*
+ * Syntax styles
+ */
+
+comment {
+  color: #93a1a1;
+  font-style: italic;
+}
+processing {
+  color: purple;
+  font-style: italic;
+}
+declaration {
+  color: #b58900;
+  font-style: italic;
+}
+
+bracket {
+  color: #93a1a1;
+}
+
+operator {
+  color: #586e75;
+}
+
+link {
+    color: #dc322f;
+}
+
+keyword {
+  color: #b58900;
+}
+invalid {
+  background-color: #dc322f;
+}
+
+value.boolean {
+  color:#cb4b16;
+}
+
+
+value.null,
+value.number {
+  color: #cb4b16;
+}
+value.entity {
+  color: #cb4b16;
+}
+
+value.symbol {
+  color: #268bd2;
+}
+
+identifier.global {
+  color: #cb4b16;
+}
+identifier.variable {
+  color: #268bd2;
+}
+identifier.type {
+  color: #cb4b16;
+}
+identifier.function {
+  color: #268bd2;
+}
+
+identifier.property {
+  color: #268bd2; /* Adjusted from hsl(190, 72%, 68%) */
+}
+
+identifier.method {
+  color: #268bd2;
+}
+identifier.core.method {
+  color: #cb4b16;
+}
+identifier.key {
+  color: #268bd2;
+}
+identifier.argument {
+  color: #657b83;
+}
+identifier.name {
+   
+}
+identifier.type.superclass {
+  color: #b58900;
+}
+
+identifier.class.type.name {
+  color: #b58900;
+}
+
+identifier.class.type.module.name {
+  color: #b58900;
+}
+
+identifier.type.superclass.module {
+  color: #cb4b16;
+}
+
+collection.array {
+  color: #657b83;
+}
+
+cdata {
+  color: purple;
+}
+
+string {
+  color: #657b83;
+}
+regex {
+  color: #dc322f;
+}
+
+string.escaped,
+regex.escaped {
+  color: #657b83;
+}
+
+
+string.key {
+  color: #657b83;
+}
+string-template {
+  color: purple;
+}
+string-template.value {
+  color: purple;
+}
+string.percent-quoted.prefix {
+  color: purple;
+}
+string.percent-quoted.delimiter {
+  color: purple;
+}
+
+markup.heading {
+  color: #6c71c4;
+}
+markup.line {
+  color: #93a1a1;
+}
+markup.bold {
+  color: #6c71c4;
+  font-weight: bold;
+}
+markup.italic {
+  color: purple;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: #93a1a1;
+}
+markup.list.item {
+  color: purple;
+}
+markup.code {
+  background-color: purple;
+}
+markup.link {
+}
+markup.image {
+}
+
+tag {
+  color: purple;
+}
+
+
+tag.attribute.name {
+  color: purple;
+}
+tag.attribute.value {
+  color: purple;
+}
+tag.framework {
+  color: purple;
+}
+
+style.attribute.name {
+  color: #93a1a1;
+}
+style.value.number {
+  color: #cb4b16;
+}
+style.string {
+  color: #657b83;
+}
+style.value.color.hex {
+  color: purple;
+}
+style.value.keyword,
+style.value.color.named {
+  color: purple;
+}
+style.at {
+  color: purple;
+}
