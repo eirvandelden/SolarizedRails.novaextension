@@ -122,7 +122,9 @@ link {
 }
 
 keyword {
-  color: #b58900;
+  color: #93a1a1;
+  font-style: italic;
+  font-weight: bold;
 }
 invalid {
   background-color: #dc322f;
