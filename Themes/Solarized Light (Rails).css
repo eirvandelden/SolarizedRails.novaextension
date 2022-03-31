@@ -135,7 +135,7 @@ value.null,
 value.number,
 value.entity,
 value.symbol {
-  color: #268bd2;
+  color: #b58900;
   font-style: italic;
 }
 
@@ -166,7 +166,7 @@ identifier.key {
   color: #268bd2;
 }
 identifier.argument {
-  color: #657b83;
+  color: #268bd2;
 }
 identifier.name {
    
