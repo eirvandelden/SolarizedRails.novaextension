@@ -28,3 +28,6 @@ end
 parameterize = lambda { |path|
   path.sub(/\A#{Regexp.quote(c['prefix'])}/, '$prefix')
 }
+
+class Foo < ActiveSupport
+end
