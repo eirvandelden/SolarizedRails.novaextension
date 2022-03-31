@@ -199,17 +199,17 @@ string {
   color: #859900;
 }
 regex {
-  color: #dc322f;
+  color: purple;
 }
 
 string.escaped,
 regex.escaped {
-  color: #657b83;
+  color: purple;
 }
 
 
 string.key {
-  color: #657b83;
+  color: purple;
 }
 string-template {
   color: purple;
