@@ -199,12 +199,12 @@ string {
   color: #859900;
 }
 regex {
-  color: purple;
+  color: #dc322f;
 }
 
 string.escaped,
 regex.escaped {
-  color: purple;
+  color: #dc322f;
 }
 
 
