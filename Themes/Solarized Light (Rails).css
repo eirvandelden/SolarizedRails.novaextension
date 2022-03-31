@@ -130,21 +130,13 @@ invalid {
   background-color: #dc322f;
 }
 
-value.boolean {
-  color:#cb4b16;
-}
-
-
+value.boolean,
 value.null,
-value.number {
-  color: #cb4b16;
-}
-value.entity {
-  color: #cb4b16;
-}
-
+value.number,
+value.entity,
 value.symbol {
   color: #268bd2;
+  font-style: italic;
 }
 
 identifier.global {
