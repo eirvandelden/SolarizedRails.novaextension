@@ -245,7 +245,8 @@ markup.list.item {
   color: purple;
 }
 markup.code {
-  background-color: purple;
+  color: #2aa198;
+  background-color: #eee8d5;
 }
 markup.link {
 }
