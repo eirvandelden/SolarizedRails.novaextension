@@ -101,7 +101,7 @@ comment {
   font-style: italic;
 }
 processing {
-  color: purple;
+  color: red;
   font-style: italic;
 }
 declaration {
@@ -209,13 +209,13 @@ regex.escaped {
 
 
 string.key {
-  color: purple;
+  color: red;
 }
 string-template {
   color: purple;
 }
 string-template.value {
-  color: purple;
+  color: red;
 }
 string.percent-quoted.prefix {
   color: purple;
@@ -236,14 +236,14 @@ markup.bold {
   font-weight: bold;
 }
 markup.italic {
-  color: purple;
+  color: red;
   font-style: italic;
 }
 markup.strikethrough {
   color: #93a1a1;
 }
 markup.list.item {
-  color: purple;
+  color: red;
 }
 markup.code {
   color: #2aa198;
@@ -279,12 +279,12 @@ style.string {
   color: #657b83;
 }
 style.value.color.hex {
-  color: purple;
+  color: red;
 }
 style.value.keyword,
 style.value.color.named {
-  color: purple;
+  color: red;
 }
 style.at {
-  color: purple;
+  color: red;
 }
