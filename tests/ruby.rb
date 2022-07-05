@@ -22,11 +22,11 @@ end
 if c['rubylibdir']
   # V > 1.6.3
   libruby         = "#{c['prefix']}/lib/ruby"
-  siterubyverarch = c['sitearchdir']
+  siterubyverarch = c["sitearchdir"]
 end
 
 parameterize = lambda { |path|
-  path.sub(/\A#{Regexp.quote(c['prefix'])}/, '$prefix')
+  path.sub(/\A#{Regexp.quote(c["prefix"])}/, '$prefix')
 }
 
 class Foo < ActiveSupport

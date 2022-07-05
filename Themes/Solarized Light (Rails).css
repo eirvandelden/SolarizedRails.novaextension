@@ -110,7 +110,7 @@ declaration {
 }
 
 bracket {
-  color: #93a1a1;
+  color: #93a1a1 !important;
 }
 
 operator {
@@ -137,6 +137,11 @@ value.entity,
 value.symbol {
   color: #b58900;
   font-style: italic;
+}
+style.value.keyword,
+style.value.color.hex,
+style.value.color.named {
+  color: #b58900;
 }
 
 identifier.global {
@@ -207,21 +212,20 @@ regex.escaped {
   color: #dc322f;
 }
 
-
 string.key {
   color: red;
 }
 string-template {
-  color: purple;
+  color: ##dc322f;
 }
 string-template.value {
   color: red;
 }
 string.percent-quoted.prefix {
-  color: purple;
+  color: #cb4b16;
 }
 string.percent-quoted.delimiter {
-  color: purple;
+  color: #cb4b16;
 }
 
 markup.heading {
@@ -255,18 +259,21 @@ markup.image {
 }
 
 tag {
-  color: purple;
+  color: #93a1a1;
 }
 
+html.tag-bracket {
+  color: #93a1a1;
+}
 
 tag.attribute.name {
-  color: purple;
+  color: ##657b83;
 }
 tag.attribute.value {
-  color: purple;
+  color: #859900;
 }
 tag.framework {
-  color: purple;
+  color: #93a1a1;
 }
 
 style.attribute.name {
@@ -278,13 +285,8 @@ style.value.number {
 style.string {
   color: #657b83;
 }
-style.value.color.hex {
-  color: red;
-}
-style.value.keyword,
-style.value.color.named {
-  color: red;
-}
+
+
 style.at {
   color: red;
 }
