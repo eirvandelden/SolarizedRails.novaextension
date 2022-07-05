@@ -1,3 +1,5 @@
 {
-  "editor.default_syntax" : "css"
+  "editor.default_syntax" : "css",
+  "workspace.color" : 0,
+  "workspace.name" : "solarized_rails.novaextension"
 }
