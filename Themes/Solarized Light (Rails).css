@@ -109,7 +109,11 @@ declaration {
   font-style: italic;
 }
 
-bracket {
+bracket,
+html.tag-bracket,
+html.tag.open.paired,
+css.style.attribute-list.bracket,
+ruby.bracket {
   color: #93a1a1 !important;
 }
 
@@ -121,22 +125,23 @@ link {
   color: #dc322f;
 }
 
+/* misschien alleen ruby keyword italic*/
+html.tag.name,
 keyword {
   color: #93a1a1;
-  font-style: italic;
   font-weight: bold;
+  font-style: italic;
 }
 invalid {
   background-color: #dc322f;
 }
 
-value.boolean,
-value.null,
-value.number,
-value.entity,
-value.symbol {
+style.value.boolean,
+style.value.null,
+style.value.number,
+style.value.entity,
+style.value.symbol {
   color: #b58900;
-  font-style: italic;
 }
 style.value.keyword,
 style.value.color.hex,
@@ -251,23 +256,27 @@ markup.list.item {
 }
 markup.code {
   color: #2aa198;
-  background-color: #eee8d5;
+  background-color: #fdf6e3;
 }
 markup.link {
+  color: red
 }
 markup.image {
+  color: red
 }
 
 tag {
   color: #93a1a1;
 }
 
-html.tag-bracket {
+/* style.attribute.name {
   color: #93a1a1;
-}
+} */
 
+style.attribute.name,
 tag.attribute.name {
   color: ##657b83;
+  font-style: italic;
 }
 tag.attribute.value {
   color: #859900;
@@ -276,16 +285,12 @@ tag.framework {
   color: #93a1a1;
 }
 
-style.attribute.name {
-  color: #93a1a1;
-}
 style.value.number {
   color: #cb4b16;
 }
 style.string {
   color: #657b83;
 }
-
 
 style.at {
   color: red;

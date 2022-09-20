@@ -2,7 +2,7 @@
     "identifier": "org.SolarizedRails",
     "name": "Solarized (Rails)",
     "organization": "eirvandelden",
-    "description": "A Solarized theme with colours chose most suitable for Ruby on Rails development.",
-    "version": "0.1",
+    "description": "A Solarized theme with colours most suitable for Ruby on Rails development.",
+    "version": "0.2",
     "categories": ["themes"]
 }
