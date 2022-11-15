@@ -208,6 +208,9 @@ cdata {
 string {
   color: #859900;
 }
+string.special.symbol{
+  font-style: italic;
+}
 regex {
   color: #dc322f;
 }
