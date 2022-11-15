@@ -102,9 +102,6 @@ link {
     color: hsl(125, 100%, 60%);
 }
 
-keyword {
-  color: hsl(360, 97%, 63%);
-}
 invalid {
   background-color: red;
 }
@@ -189,6 +186,15 @@ cdata {
 string {
   color: hsl(44, 100%, 60%);
 }
+keyword,
+style.value.keyword,
+style.value.color.named {
+  color: hsl(360, 97%, 63%);
+  font-style: italic;
+}
+string.special.symbol{
+  font-style: italic;
+}
 regex {
   color: hsl(44, 100%, 60%);
 }
@@ -270,10 +276,6 @@ style.string {
 }
 style.value.color.hex {
   color: hsl(305, 63%, 67%);
-}
-style.value.keyword,
-style.value.color.named {
-  color: hsl(358, 97%, 63%);
 }
 style.at {
   color: hsl(305, 63%, 67%);
