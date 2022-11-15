@@ -157,7 +157,7 @@ identifier.argument {
   color: hsl(305, 63%, 67%);
 }
 identifier.name {
-   
+  font-style: italic;
 }
 identifier.type.superclass {
   color: hsl(205, 83%, 64%);
@@ -254,9 +254,12 @@ tag {
   color: hsl(190, 72%, 68%);
 }
 
-
+tag.name {
+  font-style: italic;
+}
 tag.attribute.name {
   color: hsl(205, 70%, 51%);
+  font-style: italic;
 }
 tag.attribute.value {
   color: hsl(44, 100%, 60%);
